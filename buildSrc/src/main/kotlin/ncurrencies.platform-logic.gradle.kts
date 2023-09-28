@@ -7,7 +7,7 @@ val Project.platform: String
 
 tasks {
     shadowJar {
-        archiveFileName.set("lighteco-${project.platform}-${project.version}.jar")
+        archiveFileName.set("ncurrencies-${project.platform}-${project.version}.jar")
         destinationDirectory.set(rootProject.layout.buildDirectory.dir("libs"))
     }
 }
