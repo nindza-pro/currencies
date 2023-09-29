@@ -12,6 +12,11 @@ public class NinjaCoinsCurrency implements Currency {
     }
 
     @Override
+    public String[] getIdentifierAliases() {
+        return new String[]{"ninjacoiny"};
+    }
+
+    @Override
     public Type getType() {
         return Type.GLOBAL;
     }

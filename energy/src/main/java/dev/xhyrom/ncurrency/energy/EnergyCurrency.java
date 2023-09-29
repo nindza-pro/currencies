@@ -12,6 +12,11 @@ public class EnergyCurrency implements Currency {
     }
 
     @Override
+    public String[] getIdentifierAliases() {
+        return new String[]{"energie"};
+    }
+
+    @Override
     public Type getType() {
         return Type.LOCAL;
     }
