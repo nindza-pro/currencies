@@ -17,6 +17,6 @@ public class NinjaCoinsPlugin extends JavaPlugin {
         Currency currency = new NinjaCoinsCurrency();
 
         currencyManager.registerCurrency(currency);
-        commandManager.registerCurrencyCommand(currency, true);
+        commandManager.registerCurrencyCommand(currency);
     }
 }

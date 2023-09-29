@@ -17,6 +17,6 @@ public class EnergyPlugin extends JavaPlugin {
         Currency currency = new EnergyCurrency();
 
         currencyManager.registerCurrency(currency);
-        commandManager.registerCurrencyCommand(currency, true);
+        commandManager.registerCurrencyCommand(currency);
     }
 }
